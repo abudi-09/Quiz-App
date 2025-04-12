@@ -1,10 +1,10 @@
 import React from "react";
-import { Quiz } from "./component/Quiz/Quiz";
+import Quiz from "./components/Quiz";
 
-export const App = () => {
+export default function App() {
   return (
     <div>
       <Quiz />
     </div>
   );
-};
+}
