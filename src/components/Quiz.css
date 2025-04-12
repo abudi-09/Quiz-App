@@ -43,18 +43,19 @@
   cursor: pointer;
   align-items: center;
   justify-content: center;
-  margin-left: 160px;
+
   border: none;
 }
-.container.index {
+.index {
   margin: auto;
   font-size: 18px;
 }
 .correct {
-  background: #ffebeb;
-  border-color: #4acf53;
+  background: #d4edda;
+  border-color: #28a745;
 }
+
 .wrong {
-  background-color: #ffebeb;
-  border-color: #ff4a53;
+  background-color: #f8d7da;
+  border-color: #dc3545;
 }
